@@ -4,13 +4,13 @@ let microAceptado = false;
 
 const voiceSearchModalOpen = ()=>{
 	voiceSearch.style.display = "flex";
-	voiceSearch.style.animation = "aparecer 0.5s forwards";
+	voiceSearch.style.animation = "apareceran 0.5s forwards";
 	voiceRecognition();
 }
 
 
 const voiceSearchModalClose = () =>{
-	voiceSearch.style.animation = "desaparecer 0.35s forwards";
+	voiceSearch.style.animation = "desaparecer 0.25s forwards";
 	setTimeout(()=>{
 	    voiceSearch.style.display = "none";
 	},250)
